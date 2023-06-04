@@ -1,0 +1,21 @@
+{
+    "name": "ampart/bitrix-integration",
+    "description": "A bitrix client for the Laravel",
+    "type": "library",
+    "version": "1.0.0",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ampart\\BitrixIntegration\\Providers\\RootServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ampart\\BitrixIntegration\\": "src/"
+        }
+    }
+}
